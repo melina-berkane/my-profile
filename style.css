@@ -1,0 +1,102 @@
+body{
+	background-image:url(images/fondvert.jpg);
+	font-family: 'Heebo', sans-serif;
+	background-repeat: round;
+	
+	font-size:15px;
+	line-height: 1.6;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	color:#618264;
+}
+
+h1,h2,h3,h4,h5{ 
+	color:#445D48;
+	letter-spacing: 2px;
+	font-size:23px;
+	font-weight: bold;
+    line-height: 2.3;
+
+ }
+
+ h5{
+ 	margin-bottom: 10px;
+ }
+
+a{
+	text-decoration: none;
+	color:white ;
+
+}
+
+a:hover{
+	color:#186F65;
+}
+
+
+p{
+	text-align: justify;
+	text-align: center;
+ }
+ 
+ 
+
+.container{
+	width:800px;
+	margin: 50px auto;
+}
+
+.card-green{
+	background: #C8E4B2;
+	box-shadow:3px 3px 5px rgb(150, 150, 150, 1.0);
+	border-radius:4px;
+	text-align: center;
+	padding:20px;
+	margin:20px auto ;
+}
+
+
+
+
+.img-circle {
+	width:200px ;
+	border-radius: 50%;
+	box-shadow:3px 3px 5px rgb(150, 150, 150, 1.0);
+}
+
+.btn-green{
+	background:#186F65;
+	color: white;
+	padding:12px 15px;
+	border-radius: 6px;
+}
+
+.btn-green:hover{
+	background:white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding:10px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
